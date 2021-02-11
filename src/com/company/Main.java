@@ -7,7 +7,7 @@ public class Main
 {
     private static int iterCount = 0;
 
-    private static String getLowestHighestNumber(String numberAsString, boolean isHighest)
+    private static String GetLowestHighestNumber(String numberAsString, boolean isHighest)
     {
         char firstCharToSwap;
         char secondCharToSwap;
@@ -55,8 +55,8 @@ public class Main
 
         if (digitsAmount < 4) tempString += "0";
 
-        int tempLowest = Integer.parseInt(getLowestHighestNumber(tempString, false));
-        int tempHighest = Integer.parseInt(getLowestHighestNumber(tempString, true));
+        int tempLowest = Integer.parseInt(GetLowestHighestNumber(tempString, false));
+        int tempHighest = Integer.parseInt(GetLowestHighestNumber(tempString, true));
 
         System.out.println(tempHighest + " - " + tempLowest);
 
