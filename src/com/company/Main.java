@@ -15,7 +15,7 @@ public class Main
         int firstNumber;
         int secondNumber;
 
-        StringBuffer numberAsStringBuffer = new StringBuffer(numberAsString);
+        StringBuilder numberAsStringBuffer = new StringBuilder(numberAsString);
 
         for (int i = 0; i < numberAsStringBuffer.length() - 1; i++)
         {
